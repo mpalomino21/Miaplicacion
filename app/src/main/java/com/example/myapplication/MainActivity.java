@@ -21,29 +21,23 @@ private Button btnAboutUs;
             btnAboutus=(Button)findViewById(R.id.btnAboutUs);
             btnProducts.setOnClicklistener(new View.OnClickListener(){
                 public void onClick(View v){
-                    log.i(Settings.INFO, "Products");
-                    Inten i=new Intent(MainActivity.this,ProductListAtivity.class);
+
+                    Intent i=new Intent(MainActivity.this,ProductListAtivity.class);
                     startActivity(i);
 
-                }
+            }
 
             });
             btnAboutUs.setOnClicklistener(new View.OnClickListener(){
                 public void onClick(View v){
-                    log.i(Settings.INFO, "Abouts us");
-                    Inten i=new Intent(MainActivity.this,MainActivity.class);
+
+                    Intent i=new Intent(MainActivity.this,MainActivity.class);
                     startActivity(i);
-
-
                 }
-
-
             });
-
-
         }
 
-    }
+
     @Override
     protected void onResume(){
         super.onResume(); //este codigo se ejecuta antes de todos
