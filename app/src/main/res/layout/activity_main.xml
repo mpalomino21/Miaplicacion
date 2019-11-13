@@ -19,11 +19,14 @@
             app:layout_constraintTop_toTopOf="parent" />
         <!--martch_parent:se se expande en toda pantalla -->
         <!--wrap_content:utiliza lo necesario -->
-        <button
+        <button android:id="@+id/btnEnter"
             android:layout_width="martch_parent"
             android:layout_height="wrap_copntent"
             android:text="presioname"></button>
-
+        <button android:id="@+id/btnAboutUs"
+            android:layout_width="martch_parent"
+            android:layout_height="wrap_copntent"
+            android:text="presioname"></button>
 
 
     </LinearLayout>
